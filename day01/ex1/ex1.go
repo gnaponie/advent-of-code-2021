@@ -14,7 +14,7 @@ func main() {
     var previous_num int
 
     // open file
-    file, err := os.Open("input.txt")
+    file, err := os.Open("../input.txt")
     if err != nil {
         log.Fatal(err)
     }
